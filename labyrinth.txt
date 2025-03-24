@@ -1,0 +1,21 @@
+For each permutation of 9 tiles
+	For each starting point of red, blue1, blue2
+		Follow it through until you get a dead end (next), or go off the edge (next), or hit another colour (print some data)
+		
+
+Tile data structure:
+	Name
+	6+6+5+5 (input,output) pairs
+
+Pair:
+	Input (pos)
+	Output (pos)
+	
+Pos:
+	Side
+	Row/col
+	
+Hardcode tile and position of each starting point
+
+Following through: Take input pos, retrieve output pos, see if there's a tile there
+If not, end; if so, work out which side and pos we're entering
